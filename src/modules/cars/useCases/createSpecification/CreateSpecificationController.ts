@@ -10,7 +10,7 @@ class CreateSpecificationController {
     
         this.createSpecificationUseCase.execute({name, description});
       
-        return response.status(201).json({message: "Categoria cadastrada com sucesso."});
+        return response.status(201).json({message: "Especificação cadastrada com sucesso."});
     }
 };
 
